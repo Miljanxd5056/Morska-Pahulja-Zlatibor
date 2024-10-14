@@ -1,0 +1,27 @@
+.buttonstyle1 { 
+  padding: 10px 10px;
+  background-color: deepskyblue;
+  color: white;
+  border: none;
+  border: 5px;
+  cursor: pointer;
+}
+
+
+.buttonstyle1:hover {
+  background-color: blue;
+  transform: scale(1.05);
+}
+
+.text-center {
+text-align:center;
+}
+
+
+.buttoncontainer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
