@@ -1,0 +1,51 @@
+    .text-center {
+    text-align: center;
+    }
+    /*Align text to center*/
+
+    .page-navigation-link { 
+      padding: 10px 10px;
+      background-color: deepskyblue;
+      color: white;
+     border: none;
+     border: 5px;
+     cursor: pointer;
+      text-decoration: none;
+     }
+
+    .page-navigation-link:hover {
+      background-color: blue;
+      transform: scale(1.05);
+      }
+      /*These are for main links used to navigate through pages of website*/
+
+    .linkcontainer1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      }
+      /*This is used to center and modify page navigation links*/
+
+    .kontakt-link-style {
+      padding: 20px 10px;
+      background-color:blue ;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      }
+    
+  
+    .kontakt-link-style:hover {
+      background-color: red;
+      transform: scale(1.05);
+      }  
+      /*This is link used to acess our contact info*/
+
+      .images-style1{
+        height: 300px;
+        width: 450px;
+      }
+      /*This is basic image size for "slike-apatmana.html" images*/
